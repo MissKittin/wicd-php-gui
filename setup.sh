@@ -1,5 +1,6 @@
 #!/bin/sh
 rm README.md
+rm LICENSE
 chmod 755 shell.sh
 chmod 755 wicd-config-injection.sh
 
