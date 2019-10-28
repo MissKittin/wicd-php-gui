@@ -3,7 +3,7 @@
 	// 22.10.2019 - 26.10.2019
 
 	// dependencies: jquery (>=3)
-	// required files: script.php, shell.php, shell.sh, style.css, wicd-config-injection.sh
+	// required files: script.php, shell.php, shell.sh, style.php, wicd-config-injection.sh
 
 	/* configs:
 		index.php:
