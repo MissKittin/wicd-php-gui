@@ -13,7 +13,7 @@
 
 /* buttons */
 	.button {
-		border: 1px solid #000000;
+		border: 1px solid var(--content_border-color);
 		border-radius: 15px;
 		background-color: #fffee0;
 	}
@@ -21,8 +21,9 @@
 /* global for all windows */
 	.wicd_window {
 		background-color: #eeedd0;
-		border: 1px solid #000000;
+		border: 1px solid var(--content_border-color);
 		border-radius: 5px;
+		color: #000000;
 	}
 	.wicd_titleBar {
 		background-color: #000099;
@@ -32,7 +33,7 @@
 /* wicd main window */
 	#wicd_content {
 		background-color: #eeedd0;
-		border: 1px solid #000000;
+		border: 1px solid var(--content_border-color);
 		border-radius: 5px;
 	}
 	#wicd_contentNetworksActiontext {
@@ -44,4 +45,11 @@
 	}
 	.wicd_contentNetworksNetworkName {
 		font-weight: bold;
+		color: #000000;
+	}
+	.wicd_contentNetworksNetworkDetails {
+		color: #000000;
+	}
+	#wicd_status {
+		color: #000000;
 	}
