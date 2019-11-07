@@ -1,4 +1,6 @@
 #!/bin/sh
+[ -e .git ] && rm -r -f .git
+
 echo 'rm README.md'
 rm README.md
 
