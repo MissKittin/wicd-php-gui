@@ -8,7 +8,7 @@
 
 /* fonts */
 	body {
-		font-size: 16px;	
+		font-size: 16px;
 	}
 
 /* buttons */
